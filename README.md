@@ -16,3 +16,12 @@ This is a simple web application that will be deployed to a server.
 6. Create a new file in the "docs" folder. This file will be called "index.html" and it will contain the content of the web application. This file will look like this:
 
 ![](images/webpage.png)
+
+7. Create a new file in .github/workflows/ directory. This file will be called "ci-cd.yml" and it will contain the content of the workflow. This file will look like this:
+![](images/workflow.png)
+
+8. Push the changes to Github.
+9. Run the workflow. It will deploy the web application to the server.
+![](images/deploy.png)
+10. Open the web application in your browser.
+![](images/webapp.png)
