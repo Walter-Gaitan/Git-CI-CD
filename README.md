@@ -15,4 +15,4 @@ This is a simple web application that will be deployed to a server.
 5. Create a folder in the repository. This folder will be called "docs" and it will be used by Githup pages to deploy the web application.
 6. Create a new file in the "docs" folder. This file will be called "index.html" and it will contain the content of the web application. This file will look like this:
 
-![][images/webpage.png]
+![](images/webpage.png)
