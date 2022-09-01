@@ -17,3 +17,4 @@
     get_diff: true
     ignore_users: "dependabot"
     allow_no_diff: false
+    allow_no_reviewers: false
