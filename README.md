@@ -19,5 +19,6 @@ This is a simple web application that will be deployed to a server.
 ![](images/minima.png)
 9. Push the changes to Github.
 10. Deploy the website to the server using Github pages.
-11. Test the website using URL.
-12. 
+11. Test the website using the URL [Github pages](https://walter-gaitan.github.io/Git-CI-CD/).
+![](images/github-pages.png)
+12. Set up a new workflow on Github to create automatic PRs.
