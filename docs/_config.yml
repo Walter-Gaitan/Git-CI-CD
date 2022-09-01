@@ -1,11 +1,11 @@
-title: Your awesome title
+title: CI-CD with GitHub Actions
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Walter Gaitan
+  email: walterg.steven@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is a project made for the third week of the Applaudo DevOps Program.
+    It is a simple CI-CD pipeline that deploys a new version of the application
+    to github actions.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -16,14 +16,14 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    # twitter: jekyllrb
+    github:  Walter-Gaitan
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
     # instagram: jekyll
-    # linkedin: jekyll
+    linkedin: waltergaitan
     # pinterest: jekyll
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
@@ -57,4 +57,3 @@ theme: minima
 
 plugins:
  - jekyll-feed
- - jekyll-seo-tag
