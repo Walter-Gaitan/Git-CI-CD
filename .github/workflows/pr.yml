@@ -26,4 +26,4 @@ jobs:
         body: >
           This PR is auto-generated
         token: ${{ secrets.GITHUB_TOKEN }}
-        delete-branch: false
+        delete-branch: true
