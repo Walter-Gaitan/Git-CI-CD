@@ -1,8 +1,7 @@
 name: Automatic PR
 on:
   push:
-    branches:
-      - main
+    branches: [main, develop]
 
 jobs:
   updateAuthor:
