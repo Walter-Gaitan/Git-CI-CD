@@ -31,3 +31,6 @@ jobs:
           delete-branch: true
       - name: Enable Pull Request Automerge
         uses: peter-evans/enable-pull-request-automerge@v2.2.0
+        with:
+          token: ${{ secrets.PAT }}
+          pull-request-number: 1
