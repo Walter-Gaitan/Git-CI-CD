@@ -21,7 +21,7 @@ jobs:
         with:
           branch: "automated-pr"
           base: main
-          title: "Test PR"
+          title: "Test PR "
           committer: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <{{ env.GIT_COMMIT_AUTHOR_EMAIL }}>
           author: ${{ env.GIT_COMMIT_AUTHOR_NAME }} <{{ env.GIT_COMMIT_AUTHOR_EMAIL }}>
           body: >
@@ -29,8 +29,3 @@ jobs:
             [create-pull-request](walter-gaitan/create-pull-request).
           token: ${{ secrets.GITHUB_TOKEN }}
           delete-branch: true
-      - name: Enable Pull Request Automerge
-        uses: peter-evans/enable-pull-request-automerge@v2.2.0
-        with:
-          token: ${{ secrets.PAT }}
-          pull-request-number: 1
