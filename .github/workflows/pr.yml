@@ -29,3 +29,5 @@ jobs:
             [create-pull-request](walter-gaitan/create-pull-request).
           token: ${{ secrets.GITHUB_TOKEN }}
           delete-branch: true
+      - name: Enable Pull Request Automerge
+        uses: peter-evans/enable-pull-request-automerge@v2.2.0
