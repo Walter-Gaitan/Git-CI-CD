@@ -22,3 +22,9 @@ This is a simple web application that will be deployed to a server.
 11. Test the website using the URL [Github pages](https://walter-gaitan.github.io/Git-CI-CD/).
 12. Set up a new workflow on Github to create automatic PRs. The PR will look like this:
 ![](images/pr.png)
+
+## Workflows
+There are three workflows setup in this repository. 
+1. Branches. This one deletes a released branch once a PR is accepted from the develop branch.
+2. Pages. Deploys the webpage to Github Pages using Jekyll.
+3. Creates an automatic PR to main once a change is pushed in the develop branch.
