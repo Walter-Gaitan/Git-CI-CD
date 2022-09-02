@@ -1,18 +1,18 @@
 name: Automatic PR
 on:
   push:
-    branches: ["main", "develop"]
+    branches: ["develop"]
 
 jobs:
   create-pull-request:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - name: pull-request
-        uses: repo-sync/pull-request@v2
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3.10.1
         with:
-          destination_branch: "develop"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          pr_label: "feature, automated pr"
-          pr_title: "[Example] Simple demo"
+          token: ${{ secrets.GH_TOKEN }}
+          commit-message: Auto Pull Request
+          title: PR demo
+          body: Auto-created Pull Request
+          branch: ${{ github.ref }}
+          base: main
