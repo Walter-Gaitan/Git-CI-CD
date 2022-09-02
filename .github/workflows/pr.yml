@@ -15,4 +15,4 @@ jobs:
           destination_branch: "main"
           github_token: ${{ secrets.GITHUB_TOKEN }}
           pr_label: "feature, automated pr"
-          pr_title: "[Example] Simple demo"
+          pr_title: "Automatic PR"
