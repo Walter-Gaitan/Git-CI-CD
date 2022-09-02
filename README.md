@@ -21,3 +21,4 @@ This is a simple web application that will be deployed to a server.
 10. Deploy the website to the server using Github pages.
 11. Test the website using the URL [Github pages](https://walter-gaitan.github.io/Git-CI-CD/).
 12. Set up a new workflow on Github to create automatic PRs.
+test for auto PRs
