@@ -7,7 +7,7 @@ layout: post
 
 ## Introduction
 
-This is a simple web application that will be deployed to a server.
+This is a test web application that will be deployed to a server.
 
 ## Steps
 
