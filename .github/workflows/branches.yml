@@ -1,18 +1,14 @@
-name: Merge PRs
+name: delete branch on close pr
 on:
   pull_request:
     types:
-      - opened
       - closed
-      - edited
-      - reopened
+
 jobs:
-  automerge:
+  delete-branch:
     runs-on: ubuntu-latest
     steps:
-      - name: Delete merged branch
-        uses: koj-co/delete-merged-action@master
-        with:
-          branches: "!release"
+      - name: delete branch
+        uses: SvanBoxel/delete-merged-branch@main
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
